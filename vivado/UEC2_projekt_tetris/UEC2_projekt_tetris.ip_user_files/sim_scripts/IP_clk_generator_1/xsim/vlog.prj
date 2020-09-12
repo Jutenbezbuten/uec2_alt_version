@@ -1,0 +1,7 @@
+verilog xil_defaultlib --include "../../../ipstatic" \
+"../../../../UEC2_projekt_tetris.srcs/sources_1/ip/IP_clk_generator_1/IP_clk_generator_clk_wiz.v" \
+"../../../../UEC2_projekt_tetris.srcs/sources_1/ip/IP_clk_generator_1/IP_clk_generator.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

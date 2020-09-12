@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.3 (64-bit)
+# SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+# IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+# Start of session at: Sat Sep 12 18:28:12 2020
+# Process ID: 16064
+# Current directory: C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13248 C:\Users\Juten\Desktop\nowy tetris xD\uec2_projekt\vivado\UEC2_projekt_tetris\UEC2_projekt_tetris.xpr
+# Log file: C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/vivado.log
+# Journal file: C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.3/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 866.551 ; gain = 106.082
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Sep 12 18:45:32 2020...
