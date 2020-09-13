@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date         : Sat Sep 12 18:13:31 2020
+| Date         : Sun Sep 13 15:56:51 2020
 | Host         : LAPTOP-F1511I4M running 64-bit major release  (build 9200)
 | Command      : report_control_sets -file TETRIS_Main_control_sets_placed.rpt
 | Design       : TETRIS_Main
@@ -21,7 +21,7 @@ Table of Contents
 +-------------------------------+-------+
 |             Status            | Count |
 +-------------------------------+-------+
-| Number of unique control sets |    38 |
+| Number of unique control sets |    37 |
 +-------------------------------+-------+
 
 
@@ -31,12 +31,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              60 |           34 |
+| No           | No                    | No                     |              60 |           33 |
 | No           | No                    | Yes                    |              16 |            2 |
-| No           | Yes                   | No                     |             733 |          479 |
+| No           | Yes                   | No                     |             805 |          512 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |             361 |          269 |
+| Yes          | Yes                   | No                     |             314 |          228 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 

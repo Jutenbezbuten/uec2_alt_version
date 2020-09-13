@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date             : Sat Sep 12 18:14:33 2020
+| Date             : Sun Sep 13 15:58:00 2020
 | Host             : LAPTOP-F1511I4M running 64-bit major release  (build 9200)
 | Command          : report_power -file TETRIS_Main_power_routed.rpt -pb TETRIS_Main_power_summary_routed.pb -rpx TETRIS_Main_power_routed.rpx
 | Design           : TETRIS_Main
@@ -53,16 +53,16 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.008 |        6 |       --- |             --- |
-| Slice Logic             |     0.015 |     8286 |       --- |             --- |
-|   LUT as Logic          |     0.013 |     5411 |     20800 |           26.01 |
-|   F7/F8 Muxes           |     0.001 |     1396 |     32600 |            4.28 |
-|   Register              |    <0.001 |     1170 |     41600 |            2.81 |
-|   CARRY4                |    <0.001 |       55 |      8150 |            0.67 |
+| Slice Logic             |     0.015 |     8416 |       --- |             --- |
+|   LUT as Logic          |     0.013 |     5496 |     20800 |           26.42 |
+|   F7/F8 Muxes           |     0.001 |     1386 |     32600 |            4.25 |
+|   Register              |    <0.001 |     1195 |     41600 |            2.87 |
+|   CARRY4                |    <0.001 |       62 |      8150 |            0.76 |
 |   LUT as Shift Register |    <0.001 |        2 |      9600 |            0.02 |
-|   Others                |     0.000 |       36 |       --- |             --- |
-| Signals                 |     0.021 |     4443 |       --- |             --- |
+|   Others                |     0.000 |       38 |       --- |             --- |
+| Signals                 |     0.022 |     4592 |       --- |             --- |
 | MMCM                    |     0.122 |        1 |         5 |           20.00 |
-| I/O                     |     0.002 |       22 |       106 |           20.75 |
+| I/O                     |    <0.001 |       22 |       106 |           20.75 |
 | Static Power            |     0.072 |          |           |                 |
 | Total                   |     0.239 |          |           |                 |
 +-------------------------+-----------+----------+-----------+-----------------+
@@ -74,9 +74,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.054 |       0.044 |      0.010 |
+| Vccint    |       1.000 |     0.055 |       0.045 |      0.010 |
 | Vccaux    |       1.800 |     0.080 |       0.068 |      0.013 |
-| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -151,10 +151,11 @@ Table of Contents
 |     inst               |     0.122 |
 |   FRAME_VIDEO_CONTROLL |    <0.001 |
 |   random_blocks        |    <0.001 |
-|   tetris_logic         |     0.042 |
+|   tetris_logic         |     0.043 |
 |     clear_row          |    <0.001 |
 |     clk1HZ_generator   |    <0.001 |
-|     current_piece      |     0.018 |
+|     clk2HZ_generator   |    <0.001 |
+|     current_piece      |     0.021 |
 |     db_down            |    <0.001 |
 |     db_enter           |    <0.001 |
 |     db_left            |    <0.001 |
@@ -162,7 +163,7 @@ Table of Contents
 |     db_space           |    <0.001 |
 |     db_up              |    <0.001 |
 |     ingame_graphics    |    <0.001 |
-|     show_me_your_moves |     0.001 |
+|     show_me_your_moves |     0.002 |
 |     test_piece         |     0.010 |
 |   vga_timing_source    |    <0.001 |
 +------------------------+-----------+
