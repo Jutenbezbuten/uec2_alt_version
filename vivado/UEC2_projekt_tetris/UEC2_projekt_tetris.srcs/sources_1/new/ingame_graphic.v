@@ -116,6 +116,7 @@ always @* begin
                 end
             endcase
         end
+        
         else begin //if the current block is part of the already fallen pieces color it white, else color black
         VGARed_nxt=board[current_block] ? 15 : 0;
         VGAGreen_nxt=board[current_block] ? 15 : 0;

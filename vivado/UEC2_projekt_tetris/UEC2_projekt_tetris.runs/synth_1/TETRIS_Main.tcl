@@ -40,7 +40,6 @@ read_verilog -library xil_defaultlib {
   {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/game_logic_unit.v}
   {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/generate_piece.v}
   {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/ingame_graphic.v}
-  {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/test_move.v}
   {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/vga_timing.v}
   {C:/Users/Juten/Desktop/nowy tetris xD/uec2_projekt/vivado/UEC2_projekt_tetris/UEC2_projekt_tetris.srcs/sources_1/new/TETRIS_Main.v}
 }

@@ -37,7 +37,11 @@ always @(posedge clk65MHz) begin
         counter<=0;
         end
     else begin
-        if(counter == 65000000)begin
+        if (counter==59999999) begin
+            counter <= counter+1;
+            clk_out<= 1;
+        end
+        else if(counter == 65000000)begin
             counter <= 0;
             clk_out<= 1;
             end

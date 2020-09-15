@@ -34,7 +34,7 @@ always@(posedge clkrand)begin
         rand_count<=0;  
         end
     else begin
-        if(rand_count==7)begin
+        if(rand_count==6)begin
             rand_count<=0;
             end
         else begin

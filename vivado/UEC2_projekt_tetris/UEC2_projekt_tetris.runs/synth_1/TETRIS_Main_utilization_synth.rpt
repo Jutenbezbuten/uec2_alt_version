@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date         : Sun Sep 13 15:55:41 2020
+| Date         : Tue Sep 15 03:48:59 2020
 | Host         : LAPTOP-F1511I4M running 64-bit major release  (build 9200)
 | Command      : report_utilization -file TETRIS_Main_utilization_synth.rpt -pb TETRIS_Main_utilization_synth.pb
 | Design       : TETRIS_Main
@@ -30,16 +30,16 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| Slice LUTs*                | 5499 |     0 |     20800 | 26.44 |
-|   LUT as Logic             | 5497 |     0 |     20800 | 26.43 |
+| Slice LUTs*                | 5447 |     0 |     20800 | 26.19 |
+|   LUT as Logic             | 5445 |     0 |     20800 | 26.18 |
 |   LUT as Memory            |    2 |     0 |      9600 |  0.02 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |    2 |     0 |           |       |
-| Slice Registers            | 1194 |     0 |     41600 |  2.87 |
-|   Register as Flip Flop    | 1194 |     0 |     41600 |  2.87 |
+| Slice Registers            | 1201 |     0 |     41600 |  2.89 |
+|   Register as Flip Flop    | 1201 |     0 |     41600 |  2.89 |
 |   Register as Latch        |    0 |     0 |     41600 |  0.00 |
-| F7 Muxes                   |  930 |     0 |     16300 |  5.71 |
-| F8 Muxes                   |  456 |     0 |      8150 |  5.60 |
+| F7 Muxes                   |  615 |     0 |     16300 |  3.77 |
+| F8 Muxes                   |  209 |     0 |      8150 |  2.56 |
 +----------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 
@@ -58,8 +58,8 @@ Table of Contents
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
 | 16    |          Yes |           - |        Reset |
-| 117   |          Yes |         Set |            - |
-| 1061  |          Yes |       Reset |            - |
+| 147   |          Yes |         Set |            - |
+| 1038  |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -151,20 +151,20 @@ Table of Contents
 +------------+------+---------------------+
 |  Ref Name  | Used | Functional Category |
 +------------+------+---------------------+
-| LUT6       | 3859 |                 LUT |
-| LUT4       | 1149 |                 LUT |
-| FDRE       | 1061 |        Flop & Latch |
-| MUXF7      |  930 |               MuxFx |
-| LUT5       |  512 |                 LUT |
-| MUXF8      |  456 |               MuxFx |
-| LUT3       |  120 |                 LUT |
-| FDSE       |  117 |        Flop & Latch |
-| LUT2       |   86 |                 LUT |
-| CARRY4     |   62 |          CarryLogic |
+| LUT6       | 5001 |                 LUT |
+| FDRE       | 1038 |        Flop & Latch |
+| MUXF7      |  615 |               MuxFx |
+| LUT5       |  344 |                 LUT |
+| MUXF8      |  209 |               MuxFx |
+| FDSE       |  147 |        Flop & Latch |
+| LUT4       |  114 |                 LUT |
+| LUT2       |  105 |                 LUT |
+| LUT3       |   57 |                 LUT |
+| CARRY4     |   53 |          CarryLogic |
 | FDCE       |   16 |        Flop & Latch |
 | OBUF       |   14 |                  IO |
 | IBUF       |    8 |                  IO |
-| LUT1       |    7 |                 LUT |
+| LUT1       |    4 |                 LUT |
 | SRL16E     |    2 |  Distributed Memory |
 | BUFH       |    2 |               Clock |
 | BUFGCTRL   |    2 |               Clock |
